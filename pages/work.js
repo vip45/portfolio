@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Layout from "@/components/Layout/Layout";
-import Banner from "@/components/Home/Banner/Banner";
 import Exp from "@/components/Home/Exp/Exp";
 import Featured from "@/components/Home/Featured/Featured";
-export default function Home() {
+export default function Work() {
   return (
     <>
       <Head>
@@ -13,7 +12,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <Banner/>
         <Exp/>
         <Featured/>
       </Layout>

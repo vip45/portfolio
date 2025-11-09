@@ -1,0 +1,27 @@
+.featuredMain{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.featured{
+    padding: 40px 16px;
+}
+
+.featuredCard {
+    border: 2px solid #FF6464;
+    padding: 16px;
+    
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+.time span{
+    padding: 4px 12px;
+    color: #fff;
+    background-color: #FF6464;
+    border: none;
+    border-radius: 16px;
+}
+.featuredCard{
+    margin-bottom: 16px;
+}

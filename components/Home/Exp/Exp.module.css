@@ -1,0 +1,24 @@
+.exp{
+    padding: 40px 16px;
+    width: 100%;
+    background-color: #EDF7FA;
+}
+.expMain{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.btns button{
+        padding: 4px 12px;
+    color: #fff;
+    background-color: #FF6464;
+    border: none;
+    border-radius: 16px;
+}
+.btns{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+
+}

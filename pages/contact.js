@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Layout from "@/components/Layout/Layout";
-import Banner from "@/components/Home/Banner/Banner";
-import Exp from "@/components/Home/Exp/Exp";
-import Featured from "@/components/Home/Featured/Featured";
-export default function Home() {
+import ContactMe from "@/components/Contact/ContactMe";
+
+export default function Contact() {
   return (
     <>
       <Head>
@@ -13,9 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <Banner/>
-        <Exp/>
-        <Featured/>
+        <ContactMe/>
       </Layout>
     </>
   );

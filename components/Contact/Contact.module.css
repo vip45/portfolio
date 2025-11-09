@@ -1,0 +1,48 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #f8f9fa;
+}
+
+.contactMain {
+  text-align: center;
+  max-width: 600px;
+}
+
+.contactMain h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contactMain p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.contactLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.contactLink:hover {
+  color: #0072b1;
+}
+
+.icon {
+  font-size: 1.4rem;
+}
